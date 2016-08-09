@@ -1,4 +1,5 @@
 {
+  "name": "angular2-hello-world",
   "dependencies": {},
   "devDependencies": {},
   "ambientDependencies": {
@@ -13,6 +14,7 @@
     "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
     "hammerjs": "registry:dt/hammerjs#2.0.4+20160417130828",
     "jasmine": "registry:dt/jasmine#2.2.0+20160505161446",
+    "lodash": "registry:dt/lodash#3.10.0+20160619033623",
     "node": "registry:dt/node#6.0.0+20160524002506",
     "selenium-webdriver": "registry:dt/selenium-webdriver#2.44.0+20160317120654",
     "source-map": "registry:dt/source-map#0.0.0+20160317120654",

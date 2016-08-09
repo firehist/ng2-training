@@ -1,13 +1,17 @@
 import { Component } from '@angular/core'
-import { ROUTER_DIRECTIVES } from '@angular/router'
-import { StateService } from './common/state.service'
-import { ExperimentsService } from './common/experiments.service'
+import { IAppComponent } from './app.model'
 
 @Component({
-  selector: 'nat-app',
-  template: require('./app.component.html'),
-  styles: [require('./app.component.css')],
-  directives: [ ROUTER_DIRECTIVES ],
-  providers: [StateService, ExperimentsService],
+    selector: 'app',
+    template: `
+        Awesome :)
+    `
 })
-export class AppComponent {}
+export class AppComponent implements IAppComponent {
+    public name: string = 'AwesomeApp'
+    public version: string = '1.1.1'
+
+    constructor() {
+        console.log(`Applications ${this.name} - version: ${this.version}`)
+    }
+}
