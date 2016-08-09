@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Observables</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/4.1.0/rx.all.js"></script>
+<body>
+
+<h1>Testoprune</h1>
+
+<script>
+
+  let useDebounce = () => {
+    console.log('useDebounce')
+    // Use Rx.Observable
+    var array = [
+      800,
+      700,
+      600,
+      500
+    ]
+    let source = Rx.Observable.for(array, (x) => Rx.Observable.timer(x))
+      .map((x, i) => i)
+      .debounce((x) => Rx.Observable.timer(700))
+
+    var subscription = source.subscribe(
+        x => console.log('Next: ' + x),
+      err => console.log('Error: ' + err),
+      () => console.log('Completed')
+  )
+    // => Next: 0
+    // => Next: 3
+    // => Completed
+  }
+
+</script>
+
+<button onclick="useDebounce()">Debounce</button>
+
+</body>
+</html>
