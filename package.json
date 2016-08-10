@@ -10,7 +10,8 @@
     "postinstall": "typings install",
     "tslint": "tslint app/**/*.ts -t json",
     "start": "webpack-dev-server --inline --colors --watch --display-error-details --display-cached  --port 3030 --hot",
-    "test": "karma start"
+    "test": "karma start",
+    "testwatch": "karma start --no-single-run --auto-watch"
   },
   "dependencies": {
     "@angular/common": "^2.0.0-rc.5",

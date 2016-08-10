@@ -1,8 +1,8 @@
 <h1>
-  {{ title }}
+  {{ title | natUclast }}
 </h1>
 <p>
-  {{ body }}
+  {{ body | natUclast }}
 </p>
 <hr/>
 <nat-experiment *ngFor="let experiment of experiments" [experiment]="experiment"></nat-experiment>
