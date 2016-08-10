@@ -1,4 +1,4 @@
-import { provideRouter } from '@angular/router'
+import { RouterModule } from '@angular/router'
 
 import { HomeComponent } from "./home/home.component"
 import { AboutComponent } from "./about/about.component"
@@ -13,5 +13,5 @@ const routes  =  [
 ]
 
 export const APP_ROUTES = [
-  provideRouter(routes)
+  RouterModule.forRoot(routes)
 ]

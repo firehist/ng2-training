@@ -1,15 +1,9 @@
 import "core-js"
 import "zone.js/dist/zone"
 
-import { bootstrap } from "@angular/platform-browser-dynamic"
-import { disableDeprecatedForms, provideForms } from '@angular/forms';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'
+import { AppModule } from './app.module'
 
+console.log(AppModule)
 
-import { APP_ROUTES } from "./app.route"
-import { AppComponent } from "./app.component"
-
-bootstrap(AppComponent, [
-  APP_ROUTES,
-  disableDeprecatedForms(),
-  provideForms()
-])
+platformBrowserDynamic().bootstrapModule(AppModule)
