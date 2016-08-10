@@ -9,8 +9,8 @@ This project is a simple sample Angular 2 Website.
 
 ## Getting Started
 ```bash
-git clone https://github.com/firehist/angular2-training
-cd angular2-training
+git clone https://github.com/firehist/ng2-training
+cd ng2-training
 npm i
 typings install
 npm start
@@ -20,8 +20,8 @@ Then open http://localhost:3030 in your favorite browser!
 
 # Branches
 
-- [hello-world](https://github.com/firehist/angular2-training/tree/hello-world)
-- [snippets](https://github.com/firehist/angular2-training/tree/snippets)
+- [hello-world](https://github.com/firehist/ng2-training/tree/hello-world)
+- [snippets](https://github.com/firehist/ng2-training/tree/snippets)
 
 # Slides
 
