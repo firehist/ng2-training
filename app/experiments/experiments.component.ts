@@ -8,7 +8,7 @@ import { ExperimentDetailComponent } from './experiment-details/experiment.detai
 @Component({
   selector: 'nat-experiments',
   template: require('./experiments.component.html'),
-  directives: [ExperimentDetailComponent]
+  directives: [ExperimentDetailComponent, NgFor]
 })
 export class ExperimentsComponent implements OnInit {
   title: string = 'Experiments Page'

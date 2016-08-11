@@ -10,4 +10,7 @@ import { ExperimentsService } from './common/experiments.service'
   directives: [ ROUTER_DIRECTIVES ],
   providers: [StateService, ExperimentsService],
 })
-export class AppComponent {}
+export class AppComponent {
+  name: string = 'my-awesome-app'
+  version: string = '1.0.0'
+}
