@@ -8,4 +8,11 @@
   <p>
     <strong>{{experiment.completed}}</strong>
   </p>
+
+  <hr>
+  <h4>Form</h4>
+  <input type="text" [(ngModel)]="experiment.name" required minlength="2" maxlength="5" #spy #nameModel="ngModel"/>
+  <p>isValid: {{nameModel.valid}}</p>
+  <p>classes: {{spy.classList}}</p>
+
 </div>
