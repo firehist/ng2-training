@@ -52,7 +52,14 @@
 
 ## Jour 2 - Après-midi
 
-La programmation Réactive
-L'immutabilité
-Les Observables et RxJS
-Les Stores / States
+### 15 - La programmation Réactive
+[HTML](http://slides.com/benjaminlongearet/angular2-training-1-1-2-3-4-5-6-7-8-9/fullscreen)
+
+### 16 - L'immutabilité
+[HTML](http://slides.com/benjaminlongearet/angular2-training-1-1-2-3-4-5-6-7-8-9-10-11/fullscreen)
+
+### 17 - Les Observables et RxJS
+[HTML](http://slides.com/benjaminlongearet/angular2-training-1-1-2-3-4-5-6-7-8-9-10/fullscreen)
+
+### 18 - Les Stores / States
+[HTML](http://slides.com/benjaminlongearet/angular2-training-1-1-2-3-4-5-6-7-8-9-10-11-12/fullscreen)
