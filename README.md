@@ -44,6 +44,7 @@
 
 ### 13 - Les tests
 [Public Angular Testing](https://github.com/angular/angular/blob/master/modules/@angular/platform-browser/test/testing_public_spec.ts)
+
 [Basic guide testing](https://angular.io/docs/ts/latest/guide/testing.html#)
 
 ### 14 - Les formulaires
