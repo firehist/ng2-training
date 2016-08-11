@@ -39,9 +39,15 @@
 
 ## Jour 2 - Matinée
 
-Le routeur
-Les tests
-Les formulaires
+### 12 - Le routeur
+[HTML](http://slides.com/benjaminlongearet/linalis-12-router/fullscreen)
+
+### 13 - Les tests
+[Public Angular Testing](https://github.com/angular/angular/blob/master/modules/@angular/platform-browser/test/testing_public_spec.ts)
+[Basic guide testing](https://angular.io/docs/ts/latest/guide/testing.html#)
+
+### 14 - Les formulaires
+[HTML](http://slides.com/benjaminlongearet/linalis-14-forms/fullscreen)
 
 ## Jour 2 - Après-midi
 
